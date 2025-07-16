@@ -1,0 +1,202 @@
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  .home{
+            background-image: url("image1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        .header{
+            padding-top: 10px;
+            margin-left: 1200px;
+        }
+        nav {
+            position: relative;
+            top: 10px;
+        }
+        nav a:hover{
+            cursor: pointer;
+            color:blue;
+        }
+        nav a:active{
+            color:red;
+        }
+        .nav{
+           border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+           font-weight: bolder; 
+           border: 2px solid white;
+        }
+        .wel{
+            color:white;
+            text-align: center;
+            margin-top: 0px;
+        }
+        .searchbar{
+            text-align: center;
+            border-radius: 30px;
+            display: inline-block;
+            margin-left: 600px;
+            margin-top:30px;
+            box-sizing: border-box;
+        }
+        .searchbar input{
+                height:40px;
+                width:400px;
+        }
+        button{
+            margin: 10px;
+            font-size: large;
+        }
+        #btn{
+            text-align: center;
+            font-size: medium;
+        }
+        #btn:hover{
+            cursor: pointer;
+            color:blue;
+        }
+        #con{
+            font-style: italic;
+            color: black;
+            font-size: larger;
+        }
+       
+        .id1{
+            transition: transform 0.5s ease;
+            border-radius: 20px;
+            width:900px;
+        }
+       
+        .id1 :hover{
+            transform:scale(1.1);
+            width:920px;
+        }
+        .white-section {
+        
+            background-color: white;
+            color: black;
+            padding: 100px 20px ;
+            min-height: 100vh;
+            position: relative;  
+            z-index: 0; 
+            padding-bottom: 0%;
+        } 
+        .place{
+            text-align: center;
+        } 
+        .msg{
+            display: inline-block; 
+            margin-top: 30px; 
+            margin-left: 60px; 
+            line-height: 25px; 
+            text-align: justify;
+            word-spacing: 4px;  
+            font-weight: bold;
+            font-size: larger;
+        }
+        
+        .wh{
+            display: flex;
+            top:0;
+        }
+        .content1 p{
+            line-height: 25px; 
+            word-spacing: 4px;  
+            font-weight: bold;
+            font-size: larger;
+            padding-right: 30px;
+            text-align: justify;
+        }
+        .pp{
+            margin-left:60px;
+            color:blue;
+            margin-top:7px;
+            padding-top: 20px;
+        }
+        .visit{
+            margin-left: 70px;
+            font-size: large;
+            word-spacing: 3px;
+            line-height: 30px;
+            font-style: italic;
+            font-weight:600;
+            text-align: justify;
+            padding:20px;
+        }
+        .vis{
+             margin-left: 70px;
+            font-size: large;
+            word-spacing: 3px;
+            line-height: 40px;
+            font-style: italic;
+            font-weight:600;
+            text-align: justify;
+            padding-top: 20px;
+            margin-left: 30px;
+        }
+        .al{
+            margin-left:5px;
+            color:blue;
+            margin-top:10px;
+            padding-top: 25px;
+        }
+        .wayanad{
+            margin-left: 70px;
+            font-size: large;
+            word-spacing: 3px;
+            line-height: 40px;
+            font-style: italic;
+            font-weight:600;
+            text-align: justify;
+            padding-top: 20px;
+            margin-left: 80px;
+        }
+        .form1 {
+            display: flex;
+            background-color: white;
+            display: inline-block;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 3px;
+            margin-left: 560px;
+            margin-top: 100px;
+            padding: 60px;
+            font-size: larger;
+            font-weight: 500;
+            width: 300px;
+            height: 450px;
+        }
+        #name,#email{
+            height:30px;
+            width:300px;
+        }
+        #mes{
+            height: 200px;
+            width:300px;
+        }
+        #btn{
+             text-align: center;
+            background-color: red;
+            border-color: white;
+            height: 40px;
+            width: 300px;
+            cursor: pointer;
+            font: bold;
+            font-size: medium;
+        }
+        .details{
+            justify-content: center;
+        }
+        #contact{
+            background-color: lightgreen;
+        }
+        
